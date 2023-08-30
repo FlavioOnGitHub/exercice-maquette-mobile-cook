@@ -2,9 +2,6 @@
 // css variables
 // ==================================== */
 
-:root {
-}
-
 /* ====================================
 // reset rules
 // ==================================== */
@@ -13,6 +10,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  line-height: 1.2;
 }
 
 html {
@@ -23,9 +21,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
-
-  font-size: 1rem;
-  line-height: 1.5rem;
+  width: 320px;
+  text-align: center;
+  margin: auto;
 }
 
 a {
@@ -39,6 +37,89 @@ video {
   vertical-align: text-top;
 }
 
-/* ====================================
-// base rules
-// ==================================== */
+li {
+  list-style: none;
+}
+
+nav {
+  border-bottom: 1px rgb(218, 218, 218) solid;
+}
+
+nav ul {
+  font-size: 16px;
+  font-family: 'Libre Franklin', sans-serif;
+  text-decoration: underline solid black;
+  display: flex;
+  flex-flow: row wrap;
+  margin: 20px 50px;
+  justify-content: space-around;
+}
+
+.tag {
+  font-family:'Libre Franklin', sans-serif;
+  font-weight: 700;
+  font-size: 11px;
+  color: white;
+  background-color: red;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 3px 10px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.recipe-day img {
+  margin-bottom: 15px;
+}
+
+.recipe {
+  font-size: 24px;
+  font-family: 'Sorts Mill Goudy', serif;
+  margin-bottom: 14px;
+}
+
+.definition {
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 16px;
+  margin-bottom: 11px;
+}
+
+.name {
+  font-weight: 700;
+  font-family: 'libre franklin', serif;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.recipe-day {
+  padding-bottom: 30px;
+}
+
+.reccomandations {
+  background-color: rgb(215, 233, 220);
+  padding: 25px 10px 25px 10px;
+}
+
+.what-to {
+  text-align: left;
+  font-size: 20px;
+  font-family: 'Sorts Mill Goudy', serif;
+  font-weight: 700;
+}
+
+hr {
+  border: 1px black solid;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.slides p {
+  font-size: 20px;
+  background-color: white;
+  padding: 20px;
+  font-family:'Libre Franklin', sans-serif;
+}
+
+.first-slide {
+  margin-bottom: 15px;
+}
