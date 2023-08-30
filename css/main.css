@@ -123,3 +123,15 @@ hr {
 .first-slide {
   margin-bottom: 15px;
 }
+
+footer {
+  background-color: black;
+  padding: 30px 15px;
+  color: white;
+  text-align: left;
+  font-family: 'Sorts Mill Goudy';
+}
+
+footer ul {
+  text-decoration: underline;
+}
